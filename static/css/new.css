@@ -1,0 +1,912 @@
+
+
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+	body {
+		background-color: white;
+		padding: 0;
+		height: 100%;
+		margin: 0;
+	}
+	header {
+		margin: 0;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		border: 0;
+		font-size: 3em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: center;
+		letter-spacing: -.07em;
+		vertical-align: baseline;
+	}
+	a {
+		text-decoration: none;
+	}
+	.funFont {
+		margin: 0!important;
+		margin-top: 20px!important;
+		border: 0;
+		font-size: 2em!important;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.04em;
+		color: black;
+	}
+	#mc_embed_signup .mc-field-group input{
+		background-color: #d0dbe0;
+	}
+	#mc_embed_signup .button{
+		background-color: #418eb3!important;
+	}
+	#mc_embed_signup .button:hover{
+		background-color: #d0dbe0!important;
+	}
+	#mc_embed_signup .mc-field-group label {
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.watercolor {
+		width: 66%;
+		display: flex;
+    margin-left: 3em;
+		margin-right: 3em;
+	}
+	h1.carousel-title {
+		margin: 0;
+		border: 0;
+		font-size: 2em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.04em;
+		vertical-align: top;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: white;
+	}
+	h2.carousel-title {
+		margin-left: 20px;
+		margin-right: 20px;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		letter-spacing: .2em;
+		text-align: left;
+		color: white;
+	}
+	.left-carousel {
+		background-color: #0945BF;
+		display: flex;
+		flex-direction: row;
+		padding-top: 1em;
+	}
+	.right-carousel{
+		display: flex;
+		flex-direction: row;
+		background-color: #14171945;
+		padding-top: 1em;
+	}
+	.full-carousel {
+		background-color: #14171945;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 25px;
+		text-align: center;
+		margin: 0;
+	}
+	.full-width{
+		width: 94%;
+		margin-left: 3em;
+		margin-top: 0;
+		margin-right: 2em;
+	}
+	.slick-dots li button:before{
+			color: white!important;
+	}
+	.slick-dots li.slick-active button:before{
+    color: white!important;
+	}
+	.carousel-lable {
+		width: 33%;
+		vertical-align: top;
+	}
+	.slick-current {
+    opacity: 1!important;
+	}
+	.slick-slide img{
+		height: 15em;
+		padding: .5em;
+	}
+	.slick-slide {
+		opacity: 0.7;
+	}
+	.workProgress a{
+		background-color: #ca3512;
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: -20px;
+		color: white;
+	}
+	.workProgress {
+		background-color: #ca3512;
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: -20px;
+		color: white;
+	}
+	.space {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.left p{
+		padding: 0;
+	}
+	.break {
+		height: 110px;
+	}
+	.column-3 {
+		width: 30%;
+	}
+	.resume {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 30px;
+		background-color: #073ca7;
+	}
+	.indent {
+		text-indent: 3em;
+		line-height: .5em;
+		padding: 0;
+		margin: 0;
+	}
+	.contactHeader {
+		display: flex;
+		margin: 0;
+		border: 0;
+		font-size: 2em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.07em;
+		vertical-align: baseline;
+		width: 100%;
+		background-color:white;
+		background-color:#0945BF;
+	}
+	.contactHeader.center {
+		justify-content: center;
+	}
+	.headerLogo {
+		margin: 30px;
+		min-width: 260px;
+		width: 50%;
+	}
+	.contactHeader h1 {
+			font-size: .1em;
+		  color: #0945BF;
+			letter-spacing: .15em;
+		}
+	.contactHeader a{
+		color: white;
+		text-decoration: none;
+	}
+	.contactSection {
+		background-color: #123e58;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contactSection2 {
+		background-color: #0945BF;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.serviceSection {
+		background-color: #0945BF;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.serviceRow {
+		display: flex;
+		justify-content: space-around;
+	}
+	.serviceOption h2{
+		color: white;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.resume h2{
+		color: white;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: .7em;
+		letter-spacing: .3em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.serviceOption i{
+		color: white;
+		font-size: 4em;
+	}
+	.serviceOption {
+		text-align: center;
+	}
+	.menu, .phoneMenu {
+		margin: 0;
+		border: 0;
+		vertical-align: baseline;
+		font-size: .6em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0.2em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.menu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 1.6em;
+		padding: 1.5em;
+	}
+	.contactMenu {
+		padding-top: 2em;
+		margin: 30px;
+		border: 0;
+		width: 50%;
+		text-align: right;
+		font-size: .6em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #0945BF;
+		letter-spacing: 0.2em;
+		justify-content: right;
+	}
+	.contactMenu a{
+		text-decoration: none;
+		text-align: right;
+		color: white;
+		font-size: 1em;
+		padding: 0;
+	}
+	.shortMenu{
+		margin: 0;
+		border: 0;
+		vertical-align: baseline;
+		font-size: .6em;
+		padding: 0;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0.2em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.shortMenu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 1.6em;
+		padding: 1.5em;
+	}
+	.tile a{
+		text-decoration: none;
+		color: black;
+	}
+	.tile a:hover{
+		color: #0945BF;
+	}
+	.portfolioTile a{
+		text-decoration: none;
+		color: black;
+	}
+	.portfolioTile a:hover{
+		color: #0945BF;
+	}
+	.phoneMenu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 3em;
+		padding: 0;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	.menu a:hover {
+    color: #0945BF;
+	}
+	.welcomeContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-bottom: 30px;
+		text-align: center;
+		padding-top: 30px;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	.tile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+	.tile img {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		opacity: 0.7;
+		filter: grayscale(50%);
+	}
+	.tile img:hover {
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+	.tile h2{
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+	.portfolioTile h3{
+		font-size: .75em;
+		font-style: italic;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+	.portfolioTile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+	.portfolioTile img {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+	.portfolioTile img:hover {
+		opacity: 0.7;
+		filter: grayscale(50%);
+	}
+	.portfolioTile h2{
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+	.aboutHeader {
+		background-image: url("/images/TraveNorway01.JPG");
+		height: 100px;
+		width: 100%;
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 0px;
+		margin: 0px;
+	}
+	.aboutContainer {
+		background-image: url("/images/TraveNorway01.JPG");
+		height: 600px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		/*parralax*/
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 0px;
+		margin: 0px;
+		margin-top: 50px;
+	}
+	.about {
+		margin-left: 35%;
+		width: 55%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		background-color: white;
+		color: black;
+	}
+	.text {
+		margin-left: 25px;
+		margin-right: 25px;
+		color: black;
+	}
+	.text h1 {
+		font-size: 1em;
+	}
+	.text p {
+		font-size: .3em;
+		color: black;
+	}
+	.text h1,p {
+		color: black;
+		padding: 5px;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	}
+	.footer{
+		padding-top: 10px;
+		padding-bottom: 50px;
+		background-color: #191919;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white
+	}
+	.footer h1{
+		padding-bottom: 0;
+		padding-top: 7px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin: 0;
+		font-size: 1em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.01em;
+	}
+	.lightFooter{
+		padding-top: 10px;
+		padding-bottom: 50px;
+		background-color: #f5f4f0;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	  color: #0945BF;
+	}
+	.lightFooter h1{
+		padding-bottom: 0;
+		padding-top: 7px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #0945BF;
+		margin: 0;
+		font-size: 1em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.01em;
+	}
+	.footerSection {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0;
+		width: 100%;
+	}
+	.socialBar {
+		padding-left: 10px;
+		padding-top: 10px;
+		display: flex;
+		width: 70%;
+		justify-content: space-around;
+		text-align: left;
+	}
+	.bigSocial {
+		padding-left: 15%;
+		padding-top: 10px;
+		display: flex;
+		width: 70%;
+		justify-content: space-around;
+		text-align: left;
+	}
+	.bigSocial a {
+		color: white;
+		text-decoration: none;
+		font-size: 50px;
+		/* HOVER OFF */
+		transition-duration: 0.5s;
+	}
+	.bigSocial a:nth-of-type(2n+1):hover {
+		transform: scale(1.5) rotateZ(-10deg);
+	}
+	.bigSocial a:nth-of-type(2n):hover {
+		transform: scale(1.5) rotateZ(10deg);
+	}
+	.contactSection h2{
+		padding-left: 15%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 h2{
+		padding-left: 15%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.serviceSection h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.04em;
+		color: #0945BF;
+		font-weight: lighter;
+	}
+	.list {
+		text-align: left;
+		display:flex;
+		margin-left: 5%;
+	}
+	.left{
+		text-align: left;
+		display: flex;
+		padding-bottom: .5em;
+	}
+	.list h3{
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.resume h1 {
+		font-size: 3em;
+		margin: 0;
+		padding: 0;
+		padding-top: 30px;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.04em;
+		color: white;
+		font-weight: lighter;
+	}
+	.contactSection h3 {
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		font-size: .3em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 h3 {
+		padding-left: 0;
+		padding-top: 0;
+		padding-bottom: 10px;
+		text-align: center;
+		font-size: .3em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection strong{
+		font-size: 2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0em;
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 strong{
+		font-size: 2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0em;
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+	}
+	.blue a{
+		color: #0945BF!important;
+	}
+	.blue{
+		color: #0945BF!important;
+	}
+	.blue p{
+		color: #0945BF!important;
+	}
+	.white a{
+		color: white;
+	}
+	.white{
+		color: white;
+	}
+	.socialBar a{
+		text-decoration: none;
+		padding: 2px;
+		font-size: 1.5em;
+	}
+	.footerSection h2 {
+		padding: 5px;
+		margin: 0;
+		font-size: 1em;
+	}
+	.footerSection p {
+		color: white;
+		margin: 0;
+		font-size: .2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	}
+	h1 {
+		font-size: .2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	}
+
+	.contactSection h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.07em;
+		color: white;
+		font-weight: normal;
+	}
+	.contactSection2 h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.07em;
+		color: white;
+		font-weight: normal;
+	}
+	header a {
+		text-decoration: none;
+		text-align: center;
+		color: black;
+	}
+	img.preview{
+		filter: hue-rotate(45deg);
+		filter: blur(2px);
+	}
+	.image1 {
+		background-image: url(/images/2018Norway-Fjord-Preview.png);
+		width: 100%;
+		height: 100%;
+
+	}
+	@media screen and (min-width: 480px) {
+			.phoneMenu{
+				display: none;
+			}
+	}
+	@media screen and (min-width: 900px) {
+		.welcomeContainer{
+			padding-left: 8em;
+			padding-right: 8em;
+		}
+	}
+	@media screen and (min-width: 851px) {
+		.aboutHeader {
+			display: none;
+		}
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.full-carousel {
+			width: 95.7%;
+		}
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
+		.list h3 {
+			font-size: .7em;
+		}
+		.list {
+			margin-left: 10%;
+		}
+		.serviceRow {
+    flex-wrap: wrap;
+		}
+		.right-carousel, .left-carousel {
+			display: block;
+			padding-bottom: .5em;
+		}
+		.carousel-lable {
+			width: 100%;
+		}
+		.watercolor{
+			display: block;
+			width: 90%;
+			margin-left: 5%;
+		}
+		.full-width {
+			display: block;
+			width: 95%;
+			margin-left: 5%;
+		}
+		.aboutContainer {
+			margin: 0;
+			padding: 0;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			background-color: white;
+			background-image: none;
+			height: 100%
+		}
+		.welcomeContainer {
+			padding-top: 10px;
+			padding-bottom: 0;
+		}
+		.about {
+			margin: 0;
+			padding: 0;
+			width: 100%
+		}
+	}
+	@media screen and (max-width: 550px) {
+		.full-carousel {
+			width: 93.4%;
+		}
+		.list{
+			display: block;
+		}
+		.column-3 {
+			width: 100%;
+		}
+		.list h3 {
+			font-size: 1em;
+		}
+		.serviceOption {
+    	padding: 1em;
+		}
+		.watercolor{
+			display: block;
+			width: 90%;
+			margin-left: 5%;
+		}
+		.full-width {
+			display: block;
+			width: 95%;
+			margin-left: 5%;
+		}
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
+		button.slick-prev, .slick-next {
+			display: none;
+		}
+		.welcomeContainer {
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding-top: 10px;
+			padding-bottom: 0;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		.footer, .lightFooter{
+			flex-direction: column;
+			padding-left: 2em;
+		}
+		.footerSection {
+			flex-direction: column;
+		}
+		.footerSection h1 {
+			padding-top: 5px;
+			padding-left: 0;
+			margin-left: 0;
+		}
+		.socialBar {
+	    width: 100%;
+	    padding: 0;
+	    margin-left: -6px;
+		}
+		.socialBar {
+			width: 40%;
+			padding: 0;
+		}
+		.portfolioTile, .tile {
+			 width: 95%;
+		}
+		.tile img {
+			opacity: 1;
+			filter: grayscale(0%);
+		}
+		.portfolioTile img {
+			opacity: 1;
+			filter: grayscale(0%);
+		}
+		.aboutContainer {
+        background-attachment: scroll;
+		}
+		.workProgress {
+			  margin-top: 0px;
+				margin-bottom: 10px;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		body {
+			margin: 0;
+		}
+		header {
+			padding-top: .7em;
+			padding-bottom: 10px;
+			font-size: 2.5em;
+		}
+		.header h1 {
+			color: darkgrey;
+			font-size: .1em;
+			padding-left: 2em;
+			padding-right: 2em;
+		}
+		.menu {
+			display: none;
+		}
+		.phoneMenu {
+			display: flex;
+		}
+		.welcomeContainer {
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding-top: 15px;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		.tile, .portfolioTile {
+			padding: 0;
+			margin: 0;
+		}
+	}
