@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
     <script type="text/javascript">window["_gaUserPrefs"] = {
@@ -27,23 +25,20 @@
 </head>
 
 <body>
-<div class="contactHeader" ;="" *="" color:="" white;=""
-"="">
-<div class="headerLogo" style="
-    /* color: white; */
-">
-    <a href="index.html" class="logo">Leanware</a>
-    <h1>Software solutions for startups and growing businesses</h1>
-</div>
-<!-- menu -->
-<div class="contactMenu">
-    <div>
-        <a href="{{  url_for('index') }}" class="fa fa-home"></a>
-        <a href="index.html"> HOME </a>
+<div class="contactHeader">
+    <div class="headerLogo">
+        <a href="{{ url_for('index')}}" class="logo">Leanware</a>
+        <h1>Software solutions for startups and growing businesses</h1>
     </div>
+    <!-- menu -->
+    <div class="contactMenu">
+        <div>
+            <a href="{{ url_for('index') }}" class="fa fa-home"></a>
+            <a href="{{ url_for('index') }}"> HOME </a>
+        </div>
 
 
-</div>
+    </div>
 </div>
 <!-- main home page -->
 <div class="serviceSection">
@@ -207,24 +202,24 @@
         <h2>Contact Us</h2>
 
         {% if is_validated %}
-                    <div class="left white">
-            <a target="_blank" href="mailto:orlandodiaz@utexas.edu" class="left icon fa fa-envelope white"></a>
-            <a target="_blank" href="mailto:orlandodiaz@utexas.edu">
-                <p>Email Us!</p>
-            </a>
-        </div>
-        <div class="left white">
-            <a href="contact.html">
-            </a>
-        </div>
-        {%  else %}
+            <div class="left white">
+                <a target="_blank" href="mailto:orlandodiaz@utexas.edu" class="left icon fa fa-envelope white"></a>
+                <a target="_blank" href="mailto:orlandodiaz@utexas.edu">
+                    <p>Email Us!</p>
+                </a>
+            </div>
+            <div class="left white">
+                <a href="contact.html">
+                </a>
+            </div>
+        {% else %}
             <form action="?" method="POST">
                 <div class="g-recaptcha" data-sitekey="6Le44ogUAAAAAMXYi6IyYlel3_IXruVSfc3PBAVk"></div>
                 <input type="submit" value="Submit">
 
             </form>
 
-        {%  endif %}
+        {% endif %}
 
 
     </div>
