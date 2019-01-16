@@ -3,7 +3,8 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
-@import url('https://fonts.googleapis.com/css?family=Courgette');
+/*@import url('https://fonts.googleapis.com/css?family=Timmana');*/
+@import url('https://fonts.googleapis.com/css?family=Timmana');
 
 	body {
 		background-color: white;
@@ -17,7 +18,7 @@
 		padding-bottom: 50px;
 		border: 0;
 		font-size: 3em;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: center;
 		letter-spacing: -.07em;
@@ -31,7 +32,7 @@
 		margin-top: 20px!important;
 		border: 0;
 		font-size: 2em!important;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: left;
 		letter-spacing: -.04em;
@@ -62,7 +63,7 @@
 		margin: 0;
 		border: 0;
 		font-size: 2em;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: left;
 		letter-spacing: -.04em;
@@ -176,7 +177,7 @@
 		margin: 0;
 		border: 0;
 		font-size: 2em;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: left;
 		letter-spacing: -.07em;
@@ -480,7 +481,7 @@
 		padding-right: 20px;
 		margin: 0;
 		font-size: 1em;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: left;
 		letter-spacing: -.01em;
@@ -505,7 +506,7 @@
 		color: #0945BF;
 		margin: 0;
 		font-size: 1em;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		text-align: left;
 		letter-spacing: -.01em;
@@ -570,7 +571,7 @@
 	}
 	.serviceSection h1 {
 		font-size: 3em;
-    font-family: "Courgette", Arial, Helvetica, sans-serif;
+    font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-align: center;
 		letter-spacing: -.04em;
 		color: #0945BF;
@@ -601,7 +602,7 @@
 		margin: 0;
 		padding: 0;
 		padding-top: 30px;
-		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-align: center;
 		letter-spacing: -.04em;
 		color: white;
@@ -685,7 +686,7 @@
 
 	.contactSection h1 {
 		font-size: 3em;
-    font-family: "Courgette", Arial, Helvetica, sans-serif;
+    font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-align: center;
 		letter-spacing: -.07em;
 		color: white;
@@ -693,7 +694,7 @@
 	}
 	.contactSection2 h1 {
 		font-size: 3em;
-    font-family: "Courgette", Arial, Helvetica, sans-serif;
+    font-family: "Timmana", Arial, Helvetica, sans-serif;
 		text-align: center;
 		letter-spacing: -.07em;
 		color: white;
@@ -734,7 +735,7 @@
 			color: white;
 			letter-spacing: -.02em;
 			margin-left: 20px;
-			font-family: "Courgette", Arial, Helvetica, sans-serif;
+			font-family: "Timmana", Arial, Helvetica, sans-serif;
 		}
 	}
 	@media screen and (max-width: 850px) {
@@ -746,7 +747,7 @@
 			color: white;
 			letter-spacing: -.02em;
 			margin-left: 20px;
-			font-family: "Courgette", Arial, Helvetica, sans-serif;
+			font-family: "Timmana", Arial, Helvetica, sans-serif;
 		}
 		.list h3 {
 			font-size: .7em;
@@ -824,7 +825,7 @@
 			color: white;
 			letter-spacing: -.02em;
 			margin-left: 20px;
-			font-family: "Courgette", Arial, Helvetica, sans-serif;
+			font-family: "Timmana", Arial, Helvetica, sans-serif;
 		}
 		button.slick-prev, .slick-next {
 			display: none;
